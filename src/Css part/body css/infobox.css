@@ -1,0 +1,54 @@
+/* Default box styles */
+.info{
+  margin-top: 30px;
+}
+
+.box {
+    display: none; /* Hide all boxes initially */
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 750px;
+    height: 200px;
+    overflow:auto;
+    margin-right: 50px;
+  }
+  
+  .box.show {
+    display: block; /* Show the box with the 'show' class */
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: 0px solid white;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button:hover {
+    background-color: #ddd;
+  }
+  
+  .box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .box li {
+    margin-bottom: 10px;
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .box a:hover {
+    text-decoration: underline;
+  }
+  

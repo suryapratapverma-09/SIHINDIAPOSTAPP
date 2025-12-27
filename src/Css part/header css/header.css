@@ -1,0 +1,62 @@
+.navigationbar, .leftside, .rightside
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:35px;
+}
+
+.navigationbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    
+}
+
+.leftside{
+    justify-content: space-evenly;
+    
+}
+ 
+.rightside{
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.indianlogo{
+    display: inline-block;
+}
+
+.navlogo{
+    width: 20px;
+}
+
+.logoimage{
+    width: 70px;
+    
+}
+
+.logo1{
+    margin-right: 50px;
+    width: 120px;
+}
+
+.postlogoimage{
+    width: 250px;
+}
+
+hr{
+    margin: 0px;
+}
+
+.hindi{
+    width: 35px;
+}

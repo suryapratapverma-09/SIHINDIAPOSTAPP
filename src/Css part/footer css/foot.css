@@ -1,0 +1,58 @@
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+.leftsidelink{
+    display: flex;
+    flex-direction: column;
+}
+
+.midlink{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightsidelink{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialmedia{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.socialmediaicon{
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+footer{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#tata{
+    color: #337ab7;
+     
+}
+
+#indiagovin{
+    width: 220px;
+}

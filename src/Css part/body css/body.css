@@ -1,0 +1,100 @@
+.mainbody{
+    display: flex;
+    justify-content: space-between;
+}
+.partone{
+    margin: 0px;
+}
+.parttwo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+}
+.featureone{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.featuretwo{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.basic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.informationone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.calling{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoaboutcalling{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+img{
+    width: 70px;
+}
+
+#track{
+    width: 20px;
+}
+
+p{
+    margin: 0px;
+}
+
+#heading1{
+    margin-top: 5px;
+    font-size:larger;
+}
+
+.trackhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.erecipt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

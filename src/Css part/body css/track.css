@@ -1,0 +1,25 @@
+.userchoosenbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radiobox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#inputbox1,#inputbox2,#inputbox3{
+    width: 350px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.choosenbox{
+    display:flex;
+}
+
+.label{
+    margin: 0px;
+}

@@ -1,0 +1,22 @@
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; /* Keep the background transparent */
+  border: none; /* Remove any border */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the icon color to black */
+  border-radius: 50%; /* Optional: Make the icon background circular */
+  padding: 10px; /* Optional: Add padding around the icon */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent; /* Keep background transparent on hover */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: red; /* Ensure the icon stays black on hover */
+}

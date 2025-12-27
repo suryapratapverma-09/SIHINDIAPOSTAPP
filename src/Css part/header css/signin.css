@@ -1,0 +1,62 @@
+/* Container for the dropdown */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #C5C5C5;
+  
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: inline; /* Hidden by default */
+  position:absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  z-index: 1;
+  border-radius: 4px;
+  margin-top: 45px;
+}
+
+/* Show the dropdown when isOpen is true */
+.dropdown .dropdown-content {
+  display: block;
+}
+
+/* Link styling */
+.dropdown-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between anchor and component */
+}
+
+.dropdown-item a {
+  text-decoration: none;
+  color: inherit;
+}

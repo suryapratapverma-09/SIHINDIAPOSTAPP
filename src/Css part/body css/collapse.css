@@ -1,0 +1,62 @@
+.container {
+    position: relative;
+    width: 300px;
+  }
+  
+  .toggle-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 50px; /* Adjust as per your design */
+    left: 0;
+    width: 0;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: width 0.4s ease-in-out; /* Smooth transition */
+    white-space: nowrap; /* Prevent wrapping of menu items */
+  }
+
+  
+  
+  .menu.open {
+    width: 300px; /* The full width of the menu when open */
+  }
+  
+  .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+ 
+  
+  .menu-list li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+ 
+  
+  .menu-list li:hover {
+    background-color: #f7f7f7;
+  }
+
+  
+  
