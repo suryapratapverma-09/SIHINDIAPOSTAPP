@@ -1,34 +1,10 @@
 from flask import Flask, request, jsonify
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
 import random
 from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-
-# Load and preprocess the dataset
-file_path = r"C:\Users\HP\Desktop\SIH APP\indiapostapp\backend\user_dataset_india_with_timeslots_2.csv"
-
-data = pd.read_csv(file_path)
-data.columns = data.columns.str.strip()  # Remove leading/trailing spaces in column names
-
-# Check if required columns exist
-required_columns = ['Contact Number', 'Time Slot', 'Delivery Successful', 'Name']
-if not all(col in data.columns for col in required_columns):
-    raise Exception("One or more required columns are missing. Please check the dataset.")
-
-# Encode the 'Time Slot' column for further analysis
-label_encoder_time = LabelEncoder()
-data['Time_Slot_Encoded'] = label_encoder_time.fit_transform(data['Time Slot'])
-
-# Calculate the success rate for each time slot grouped by contact number
-time_slot_success_rate = (
-    data.groupby(['Contact Number', 'Time Slot'])['Delivery Successful']
-    .mean()
-    .reset_index()
-)
-
 
 @app.route('/')
 def hello():
